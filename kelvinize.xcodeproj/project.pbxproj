@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CBFB10154F5CED00FD6D2A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 28CBFB0F154F5CED00FD6D2A /* main.c */; };
+		28CBFB12154F5CED00FD6D2A /* kelvinize.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28CBFB11154F5CED00FD6D2A /* kelvinize.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28CBFB09154F5CED00FD6D2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				28CBFB12154F5CED00FD6D2A /* kelvinize.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28CBFB0B154F5CED00FD6D2A /* kelvinize */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kelvinize; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CBFB0F154F5CED00FD6D2A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		28CBFB11154F5CED00FD6D2A /* kelvinize.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = kelvinize.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CBFB08154F5CED00FD6D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CBFB00154F5CED00FD6D2A = {
+			isa = PBXGroup;
+			children = (
+				28CBFB0E154F5CED00FD6D2A /* kelvinize */,
+				28CBFB0C154F5CED00FD6D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CBFB0C154F5CED00FD6D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CBFB0B154F5CED00FD6D2A /* kelvinize */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CBFB0E154F5CED00FD6D2A /* kelvinize */ = {
+			isa = PBXGroup;
+			children = (
+				28CBFB0F154F5CED00FD6D2A /* main.c */,
+				28CBFB11154F5CED00FD6D2A /* kelvinize.1 */,
+			);
+			path = kelvinize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CBFB0A154F5CED00FD6D2A /* kelvinize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CBFB15154F5CED00FD6D2A /* Build configuration list for PBXNativeTarget "kelvinize" */;
+			buildPhases = (
+				28CBFB07154F5CED00FD6D2A /* Sources */,
+				28CBFB08154F5CED00FD6D2A /* Frameworks */,
+				28CBFB09154F5CED00FD6D2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kelvinize;
+			productName = kelvinize;
+			productReference = 28CBFB0B154F5CED00FD6D2A /* kelvinize */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CBFB02154F5CED00FD6D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Ramiro Franco";
+			};
+			buildConfigurationList = 28CBFB05154F5CED00FD6D2A /* Build configuration list for PBXProject "kelvinize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28CBFB00154F5CED00FD6D2A;
+			productRefGroup = 28CBFB0C154F5CED00FD6D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CBFB0A154F5CED00FD6D2A /* kelvinize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CBFB07154F5CED00FD6D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CBFB10154F5CED00FD6D2A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28CBFB13154F5CED00FD6D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28CBFB14154F5CED00FD6D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28CBFB16154F5CED00FD6D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28CBFB17154F5CED00FD6D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CBFB05154F5CED00FD6D2A /* Build configuration list for PBXProject "kelvinize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CBFB13154F5CED00FD6D2A /* Debug */,
+				28CBFB14154F5CED00FD6D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CBFB15154F5CED00FD6D2A /* Build configuration list for PBXNativeTarget "kelvinize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CBFB16154F5CED00FD6D2A /* Debug */,
+				28CBFB17154F5CED00FD6D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CBFB02154F5CED00FD6D2A /* Project object */;
+}
